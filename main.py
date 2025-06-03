@@ -21,7 +21,7 @@ for i in range(10):
     })
 
 # Generate the FastAPI code with embedded images
-generated_path = "/mnt/data/main_with_images.py"
+generated_path = "main.py"
 with open(generated_path, "w") as f:
     f.write("from fastapi import FastAPI\n")
     f.write("from fastapi.middleware.cors import CORSMiddleware\n\n")
